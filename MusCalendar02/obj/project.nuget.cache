@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z1Gh0M9X7x6/BhjRwqALRxkMRqaEGrQBlQdPtePfHd4+0XGIc9Pns81SZdvvqK2rqO7O3rZVezqnU4h5t58jpg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Padawans\\MuCalendar\\MusCalendar02\\MusCalendar02\\MusCalendar02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Framework\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Framework\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Framework\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Framework\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Framework\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Framework\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
