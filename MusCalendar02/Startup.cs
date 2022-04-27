@@ -6,7 +6,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using MusCalendar02.Data;
+using MusCalendar02.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +29,12 @@ namespace MusCalendar02
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ConnectMongoDb>(
+                Configuration.GetSection("DbConfig"));
+
+            services.AddSingleton(sp => sp.GetRequiredService<IOptions<ConnectMongoDb>>().Value);
+
+            services.AddSingleton<EventService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
